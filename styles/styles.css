@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap');
 
 body {
     margin: 0;
@@ -59,3 +60,32 @@ body {
     box-shadow: 10px 10px 90px #f20044;
 }
 
+
+h2 {
+    position: absolute;
+    margin-top: 30%;
+    font-family: "Gwendolyn", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.5rem;
+}
+
+.neonText {
+    color: #ffc2c2;
+    text-shadow:
+        0 0 7px #b60018,
+        0 0 10px #b60018,
+        0 0 21px #b60018,
+        0 0 42px rgb(255, 0, 76),
+        0 0 82px rgb(255, 0, 76),
+        0 0 92px rgb(255, 0, 76),
+        0 0 102px rgb(255, 0, 76),
+        0 0 151px rgb(255, 0, 76);
+}
+
+@media (max-width: 600px) {
+    h2{
+        margin-top: 50%;
+    }
+  }
+  
